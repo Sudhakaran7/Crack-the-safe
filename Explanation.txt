@@ -1,0 +1,47 @@
+Varun is a detective, so he went to investigate a murder case, in the sight, he saw a paper, in which the dead person have wrote "My reason for murder is in the locker"
+so he want to open that locker, so that he could get information about the murder, the person have left the clue like,
+The password is a sequence of n digits where each digit can be one of the first k digits 0, 1, ..., k-1.
+While entering a password, the last n digits entered will automatically be matched against the correct password.
+For example, assuming the correct password is "345", if you type "012345", the box will open because the correct password matches the suffix of the entered password.
+Find the minimum length that is guaranteed to open the locker.
+
+Input description:
+n and k as integers, where n denotes the range of numbers and k denoted the digits of permutation
+
+Output Description:
+the minimum length that is guaranteed to open the locker
+
+Sample Input:
+1 2
+
+Sample Output:
+10
+(01 also accepted too., ie all the permutation of the output can be accepted)
+
+Explanined:
+the range of number is 1, natural number starts with 0, so the permutation of 0 and 1 is the answer
+
+Sample Input:
+2 3
+
+Sample Output:
+0221120100
+
+Sample Input:
+4 3
+
+Sample Output:
+000222212122112111122201220212011202022101210211011102010102200120021001100200010000
+
+Sample Input:
+2 7
+
+Sample Output:
+06655645446353433625242322615141312116050403020100
+
+Sample Input:
+9 1
+
+Sample Output:
+9 1
+000000000
